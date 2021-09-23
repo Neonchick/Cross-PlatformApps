@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <div class=main_container>
+        <div class= result_line_contaner>
+            <button class= "cancel_button" type="button" onclick="reset()" >clear</button>
+            <div class="result_line" id="result"></div>
+        </div>
+        <table class="buttons_table">
+            <tr>
+                 <td><button class="button" onclick="addChar('1')">1</button></td>
+                 <td><button class="button" onclick="addChar('2')">2</button></td>
+                 <td><button class="button" onclick="addChar('3')">3</button></td>
+                 <td><button class="button" onclick="addChar('+')">+</button></td>
+            </tr>
+            <tr class="buttons">
+                 <td><button class="button" onclick="addChar('4')">4</button></td>
+                 <td><button class="button" onclick="addChar('5')">5</button></td>
+                 <td><button class="button" onclick="addChar('6')">6</button></td>
+                 <td><button class="button" onclick="addChar('-')">-</button></td>
+            </tr>
+            <tr class="buttons">
+                 <td><button class="button" onclick="addChar('7')">7</button></td>
+                 <td><button class="button" onclick="addChar('8')">8</button></td>
+                 <td><button class="button" onclick="addChar('9')">9</button></td>
+                 <td><button class="button" onclick="addChar('x')">x</button></td>
+            </tr>
+            <tr class="buttons">
+                 <td><button class="button" onclick="addChar('.')">.</button></td>
+                 <td><button class="button" onclick="addChar('0')">0</button></td>
+                 <td><button class="button" onclick="calc()">=</button></td>
+                 <td><button class="button" onclick="addChar('/')">/</button></td>
+             </tr>
+       <table>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
