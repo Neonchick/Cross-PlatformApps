@@ -1,0 +1,13 @@
+.addButton {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.addArea {
+    width: 100%;
+}
+
+.addInput {
+    width: 80%;
+}

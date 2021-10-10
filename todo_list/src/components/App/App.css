@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(63,94,251,1) 0%, rgba(252,70,107,0.8) 100%);
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: white;
+}
